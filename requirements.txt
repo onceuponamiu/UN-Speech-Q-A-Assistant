@@ -1,0 +1,10 @@
+langchain
+langchain-openai
+langchain-huggingface
+langchain-chroma
+langchain-ollama
+transformers
+scikit-learn
+plotly
+sentence-transformers
+kagglehub
