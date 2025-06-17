@@ -45,7 +45,7 @@ You can ask natural questions like:
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/your-username/un-speech-assistant.git
-cd un-speech-assistant
+cd UN-Speech-Q-A-Assistant
 pip install -r requirements.txt
-streamlit run app/streamlit/app_streamlit.py
+streamlit run app_streamlit.py
 
