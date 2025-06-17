@@ -17,18 +17,8 @@ The dataset contains speeches from **UN member states** delivered at the General
 - Full speech text (in English)  
 - Country  
 - Year and session  
-- OCR-processed, cleaned text  
 
 ---
-
-## 🔍 Use Cases
-
-This project enables rich exploration and analysis of:
-
-- 📈 Sentiment trends over time  
-- 🌍 Regional and temporal topic shifts  
-- ✍️ Linguistic and stylistic differences  
-- 🏛️ Country-specific foreign policy themes  
 
 You can ask natural questions like:
 
@@ -38,11 +28,6 @@ You can ask natural questions like:
 
 ---
 
-## 💡 Project Purpose
-
-To build an AI-powered virtual assistant that uses **natural language** to answer user questions about the UN General Debate speeches.
-
----
 
 ## 🛠️ Tech Stack
 
@@ -58,7 +43,9 @@ To build an AI-powered virtual assistant that uses **natural language** to answe
 ## 🚀 How to Run Locally
 
 ### 1. Clone the repository
-
 ```bash
 git clone https://github.com/your-username/un-speech-assistant.git
 cd un-speech-assistant
+pip install -r requirements.txt
+streamlit run app/streamlit/app_streamlit.py
+
